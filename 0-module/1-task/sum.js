@@ -1,5 +1,9 @@
 function sum(a, b) {
-  /* ваш код */
+      if (Number(a)  === a && Number(b) === b)
+        {
+          return a + b;
+        }
+      throw TypeError();
 }
 
 module.exports = sum;
